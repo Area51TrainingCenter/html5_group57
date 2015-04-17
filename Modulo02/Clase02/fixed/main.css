@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	   box-sizing: border-box;
+	}
+.wrapper
+{
+	width: 740px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 70px;
+	
+}
+
+nav{
+	background-color: black;
+}
+.menu li
+{
+display: inline-block;
+
+font: 20px;
+color:white;
+font-family:arial;
+padding: 20px 20px;
+height: 60px;
+}
+
+
+
+
+
+
+.item-new
+{
+	width: 619px;
+	margin: 0 auto;
+	position: relative;
+}
+.titulo
+{
+	
+	position: absolute;
+	bottom: 0px;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.66);
+	color: white;
+	padding: 20px;
+	text-shadow:1px 1px 1px black;
+}
+.relative{
+	position: relative;
+	
+}
+.ui-categoria
+{
+position: absolute;
+top:0px;
+left: 0px;
+background-color: black;
+color:#fff000;
+padding: 10px;
+}
+
+.ui-redes{position: absolute;top: 10px;right: 15px;}
+.icono-social
+{
+	background-image: url("redes.png");
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	/*transition:all 0.15s linear;*/
+}
+.facebook
+{
+	background-position: -40px 40px;
+}
+.twitter
+{
+	background-position: 0px 40px;
+}
+
+.youtube
+{
+	background-position: 80px 40px;
+}
+
+
+
+
+.facebook:hover
+{
+
+	background-position: -40px 0px;
+
+
+}
+
+
+
+.twitter:hover
+{
+
+	background-position: 0px 0px;
+
+}
+
+
+
+.youtube:hover
+{
+
+	background-position: 80px 0px;
+
+}
+
+.detalle-new{
+	padding: 20px;
+	font-family: arial;
+	font-size: 22px;
+	line-height: 27px;
+	color: black;
+}
+
+.header-fixed{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1000;
+	background-color: black;
+	height: 60px;
+}
+ nav{
+	width: 970px;
+		margin:0 auto;
+		height: 60px;
+}
+
+.item-menu:hover{
+background-color: white;
+color:black;
+border-bottom: 5px solid orange;
+}
+
+.barrasocial{
+	width: 88px;
+	height: 200px;
+
+	position: fixed;
+	top: 88px;
+	
+	padding: 25px;
+
+}
+
+.boton-up{
+	width: 100px;
+	height: 100px;
+	background-color:red;
+	position: fixed;
+	bottom:0px;
+	right: 0px;
+	
+	
+}
