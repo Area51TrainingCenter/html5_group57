@@ -1,0 +1,75 @@
+
+body
+{
+	font-family: arial;
+}
+a, a:hover{ text-decoration: none;}
+.wrapper
+{
+	width: 970px;
+	margin: 0 auto;
+	background-color:rgba(231, 231, 231, 0.28);
+	box-shadow: 0px 0px 15px rgba(77, 74, 74, 0.79);
+	background-color: black;
+}
+.nav-fixed{
+	background-color: black;
+}
+.menu li
+{
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+	padding: 10px 15px;
+	font-weight: 500;
+
+}
+
+.menu li:hover 
+{
+color: black;
+background-color: white;
+
+}
+.menu
+{
+	width: 970px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.principal{
+	width: 970px;
+	height: 500px;
+	background-color:red;
+	margin: 10px 0px; 
+}
+#noticias{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.noticias
+{
+	width: 600px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: blue;
+}
+.publicidad
+{
+	width: 360px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: green;
+}
+.footer-nav
+{
+	width: 800px;
+	height: 100px;
+	background-color: skyblue;
+	border-radius: 20px;
+	margin: 10px auto;
+}

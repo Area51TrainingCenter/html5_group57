@@ -1,0 +1,61 @@
+@media (max-width: 970px){
+.wrapper
+	{
+	width: 100%;
+
+	}
+	#destacado img{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 540px){
+
+	#destacado .ui-titulo-principal{
+		font-size: 15px;
+	}
+
+}
+
+
+
+@media  (max-width: 970px) {
+
+
+ .item-noticia
+ {
+ 	width: 23%;
+ 	margin: 10px 0;
+ }
+ .item-noticia img
+ {
+ 	width: 100%
+ }
+
+}
+
+@media  (max-width: 720px) {
+
+
+ .item-noticia
+ {
+ 	width: 32%;
+ 	margin: 10px 0;
+ }
+
+}
+
+
+@media  (max-width: 640px) {
+
+ .item-noticia
+ {
+ 	width: 48%;
+ 	margin: 10px 0;
+ }
+
+}
+
+
+

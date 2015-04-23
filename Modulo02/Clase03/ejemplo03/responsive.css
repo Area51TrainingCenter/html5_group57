@@ -1,0 +1,47 @@
+@media (max-width: 970px) {
+	.nav-fixed{
+		background-color: red;
+	}
+
+	.menu {width: 100%;}
+
+	.wrapper{width: 100%;}
+
+	.principal {
+ 		 width: 90%;
+		margin: 10px auto;
+ 		}
+
+}
+
+@media (max-width: 800px) {
+.footer-nav {
+  width: 90%;
+  margin: 0 auto;
+}
+}
+
+
+@media (max-width: 620px) {
+
+.noticias {
+  width: 90%;}
+}
+
+
+@media (max-width: 380px) {
+
+.publicidad {
+  width: 80%}
+}
+
+
+@media (max-width: 380px) {
+
+.menu li {
+  display: block;}
+}
+
+
+
+
