@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+}
+nav ul li
+{
+	display: inline-block;
+	padding:10px;
+	color: white;
+	cursor: pointer;
+}
+ul{
+	width: 970px;
+	background-color: black;
+	margin: 0 auto;
+}
+section{
+	display: none;
+}
+.wrapper{
+	width: 970px;
+	margin: 0 auto;
+}
+
+.show
+{
+	display: block;
+}
+
+article{
+	width: 200px;
+display: inline-block;
+margin: 10px;
+}
+.activo{
+	background-color: orange;
+	color:black;
+}
